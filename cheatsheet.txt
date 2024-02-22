@@ -1,0 +1,20 @@
+#build
+docker build -t nameofimage .
+e.g docker build -t une:1.0.1 .
+
+#omitting . results to ERROR: "docker buildx build" requires exactly 1 argument.
+
+#verifyimages
+docker images 
+
+#delete
+docker rmi imageId or Name
+
+#running containers
+docker ps
+
+#bind, expose to localhost
+docker ps
+docker run -d -p 8080:80 container_id_or_name
+
+#
